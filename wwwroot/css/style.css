@@ -1,0 +1,44 @@
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    background-color: orange;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    color: inherit !important;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+
+.headerItem {
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#logo {
+    width: 100px;
+}
+
+footer {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    position: absolute;
+    bottom: 0;
+}
