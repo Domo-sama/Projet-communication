@@ -1,13 +1,13 @@
 body {
     font-family: 'Ropa Sans', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
 }
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -26,6 +26,11 @@ h3 {
 
 a {
     color: inherit !important;
+}
+
+#messageBienvenue {
+    text-align: center;
+    font-weight: bold;
 }
 
 header {
@@ -47,6 +52,6 @@ header {
 footer {
     background-color: white;
     box-shadow: 0 0 10px;
-    position: absolute;
+    position: static;
     bottom: 0;
 }
