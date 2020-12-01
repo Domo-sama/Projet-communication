@@ -55,3 +55,14 @@ footer {
     position: static;
     bottom: 0;
 }
+
+.temoignages{
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#boiteTemoignage{
+    padding: 1em;
+}
