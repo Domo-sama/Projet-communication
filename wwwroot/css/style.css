@@ -56,33 +56,9 @@ footer {
     bottom: 0;
 }
 
-.temoignages{
+.temoignage {
     text-align: center;
     margin: 2px;
     padding: 5px;
     border: 1px solid black;
-}
-
-.media_temoins{
-    max-width: 75%;
-    height: auto;
-    float: inline-end;
-}
-
-#boiteTemoignage{
-    padding: 1em;
-}
-.lien a {
-    text-decoration: underline;
-}
-
-.img_activities{
-    max-width: 30%;
-    height: auto;
-    float: right;
-    padding: 2px;
-}
-
-.activies_info{
-    display: inline-block;
 }
