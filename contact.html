@@ -43,26 +43,46 @@
       <h1>Nous contacter</h1>
       <br>
       <form action="https://www.w3schools.com/action_page.php" method="get">
-        <div class="form">
-          <div>
-            <h3>Renseignements personnels</h3>
-            <div class="form-group">
-              <label for="adresseCourriel">Votre adresse courriel</label>
-              <input type="email" class="form-control" id="adresseCourriel" name="adresseCourriel"
-                placeholder="exemple123@hotmail.com">
-            </div>
-            <div class="form-group">
-              <label for="zoneQuestions">Vos questions ou commentaires</label>
-              <div>
-                <textarea id="zoneQuestions" cols="80" rows="6" name="zoneQuestions"
-                  placeholder="Entrez votre texte ici"></textarea>
-              </div>
-            </div>
+        <h3>Renseignements personnels</h3>
+        <br>
+        <div class="form-row">
+          <div class="col-md-6 col-12">
+            <label for="nom">Votre nom</label>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Prénom Nom">
+          </div>
+        </div>
+        <br>
+        <div class="form-row">
+          <div class="col-md-6 col-12">
+            <label for="nom">Votre statut</label>
+            <select name="statut" id="statut" class="form-control">
+              <option value="">Choisir une option</option>
+              <option value="etudiant">Étudiant</option>
+              <option value="parent">Parent</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="form-row">
+          <div class="col-md-6 col-12">
+            <label for="nom">Votre adresse courriel</label>
+            <input type="email" class="form-control" id="adresseCourriel" name="adresseCourriel"
+              placeholder="exemple123@hotmail.com">
+          </div>
+        </div>
+        <br>
+        <div class="form-row">
+          <div class="col-md-6 col-12">
+            <label for="zoneTexte">Vos questions ou commentaires</label>
             <div>
-              <button type="submit" class="btn btn-primary">Soumettre</button>
+              <textarea id="zoneTexte" style="width: 100%" rows="6" name="zoneTexte"
+                placeholder="Entrez votre texte ici"></textarea>
             </div>
           </div>
         </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Soumettre</button>
       </form>
     </div>
   </main>
